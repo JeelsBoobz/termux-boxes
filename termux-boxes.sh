@@ -24,7 +24,7 @@ echo
 echo -e "\e[04;32m/*extracting files....\e[00m" | pv -qL 10
 echo
 tar -xzf boxes-termux.tar.gz | pv
-cd boxex-termux
+cd boxes-termux
 echo -e "\e[04;32m/*installing boxes tools...\e[00m"
 make && make install
 cd
